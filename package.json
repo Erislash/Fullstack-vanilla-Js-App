@@ -3,8 +3,6 @@
     "version": "1.0.0",
     "description": "",
     "scripts": {
-        "server": "nodemon ./backend/server.js",
-        "dev": "cross-env NODE_ENV=development nodemon ./backend/server.js --ignore frontend",
         "start": "cross-env NODE_ENV=production node ./backend/server.js",
         "postinstall": "npm run buid",
         "build": "cross-env NODE_ENV=production webpack",
@@ -30,7 +28,6 @@
         "css-loader": "^6.2.0",
         "html-webpack-plugin": "^5.3.2",
         "mini-css-extract-plugin": "^2.2.0",
-        "nodemon": "^2.0.12",
         "style-loader": "^3.2.1",
         "webpack": "^5.49.0",
         "webpack-cli": "^4.7.2",
