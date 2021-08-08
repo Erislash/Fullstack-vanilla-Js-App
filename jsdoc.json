@@ -1,0 +1,16 @@
+{
+    "plugins": ["plugins/markdown", "plugins/summarize"],
+    "source": {
+        "include": ["backend", "backend/routes"],
+        "includePattern": ".js$",
+        "excludePattern": "(node_modules|public)"
+    },
+    "templates": {
+        "cleverLinks": false,
+        "monospaceLinks": false
+    },
+    "opts": {
+        "recurse": "true",
+        "destination": "./documentation"
+    }
+}
